@@ -1,1 +1,1 @@
-# QuikieAppDemo
+# QuikieAppDemo - React Native
