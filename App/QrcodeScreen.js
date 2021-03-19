@@ -25,7 +25,7 @@ class QrcodeScreen extends Component{
                     </View>
                     <View style={{flex: 1,justifyContent:'center',alignItems:'center'}}>
                         <View style={{backgroundColor: 'white',borderRadius:3,margin: 10,marginBottom:50,borderWidth:5,borderColor:'grey',padding:10}}>
-                        <Image source={require('W:/React Native Project/QuikieApps/images/qr-code.png')}
+                        <Image source={require('../images/qr-code.png')}
                                style={{width: 210, height: 210,borderRadius: 3}}
                                resizeMode="cover"/>
                         </View>

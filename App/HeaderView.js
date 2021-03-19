@@ -27,7 +27,7 @@ class HeaderView extends Component{
         <Grid style={{flex: 1,zIndex: 300}}>
 
             <Col style={{justifyContent: 'center', padding: 5}}>
-                <Image source={require('W:/React Native Project/QuikieApps/images/man.png')}
+                <Image source={require('../images/man.png')}
                        style={{width: 60, height: 60, borderRadius: 30, margin: 10}}
                        resizeMode="cover"/>
             </Col>
@@ -50,12 +50,12 @@ class HeaderView extends Component{
                     style={{fontWeight: '600', fontSize: 18, marginRight: 7, color: 'white'}}>40</Text></Row>
             </Col>
             <Col style={{justifyContent: 'center', alignItems: 'center',paddingTop: 15}}>
-                <ImageBackground source={require('../../QuikieApps/images/logoSmall.png')} style={{
+                <ImageBackground source={require('../images/logoSmall.png')} style={{
                     flex: 1,
                     borderTopLeftRadius: 10,
                     borderTopRightRadius: 10,
                 }} imageStyle={{borderTopLeftRadius: 10, borderTopRightRadius: 10,width: 24, height: 24,margin:17}}
-                                 defaultSource={require('../../QuikieApps/images/logoSmall.png')}>
+                                 defaultSource={require('../images/logoSmall.png')}>
                 <Progress.Circle  size={60} progress={0.4}  color={'#36C7FF'} unfilledColor={'#00001F'} borderColor={'black'}/>
                 </ImageBackground>
             </Col>

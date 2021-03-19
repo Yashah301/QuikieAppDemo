@@ -29,7 +29,7 @@ class App extends Component {
                   position: 'absolute', top: 40, right: 30, alignSelf: 'flex-end',
                   width: 17, height: 17, backgroundColor: '#1A97B9'
                 }}/>
-                <Image source={require('../QuikieApps/images/logo.png')}
+                <Image source={require('./images/logo.png')}
                        style={{width: 194, height: 155}}
                        resizeMode="contain"/>
               </View>

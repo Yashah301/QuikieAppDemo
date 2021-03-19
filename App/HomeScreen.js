@@ -43,7 +43,7 @@ class HomeScreen extends Component{
                     borderTopRightRadius: 10,
                     overflow: 'hidden'
                 }} imageStyle={{borderTopLeftRadius: 10, borderTopRightRadius: 10, overflow: 'hidden'}}
-                defaultSource={require('../../QuikieApps/images/nike3.png')}>
+                defaultSource={require('../images/nike3.png')}>
                 </ImageBackground>
                 <View style={{backgroundColor:'#171732',padding:25,borderBottomLeftRadius:10,borderBottomRightRadius:10}}>
                 <Text style={{color:'white',fontWeight:'500',
